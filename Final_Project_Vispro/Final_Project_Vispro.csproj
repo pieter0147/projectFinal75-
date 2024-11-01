@@ -52,11 +52,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
     <Compile Include="admin_log.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="admin_log.Designer.cs">
       <DependentUpon>admin_log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="change_password_profil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="change_password_profil.Designer.cs">
+      <DependentUpon>change_password_profil.cs</DependentUpon>
     </Compile>
     <Compile Include="CrystalReport1.cs">
       <AutoGen>True</AutoGen>
@@ -94,6 +106,12 @@
     <Compile Include="paket_motor.Designer.cs">
       <DependentUpon>paket_motor.cs</DependentUpon>
     </Compile>
+    <Compile Include="profile_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="profile_employee.Designer.cs">
+      <DependentUpon>profile_employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="services.cs">
@@ -108,8 +126,14 @@
     <Compile Include="sign_in_employe.Designer.cs">
       <DependentUpon>sign_in_employe.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="admin_log.resx">
       <DependentUpon>admin_log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="change_password_profil.resx">
+      <DependentUpon>change_password_profil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CrystalReport1.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -129,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="paket_motor.resx">
       <DependentUpon>paket_motor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profile_employee.resx">
+      <DependentUpon>profile_employee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

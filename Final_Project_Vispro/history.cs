@@ -171,6 +171,13 @@ namespace Final_Project_Vispro
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            admin admin = new admin();
+            admin.Show();
+            this.Hide();
+        }
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 

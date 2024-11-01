@@ -89,6 +89,18 @@ namespace Final_Project_Vispro
             //}
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -109,7 +121,7 @@ namespace Final_Project_Vispro
                         sandi = kolom["password"].ToString();
                         if (sandi == txtPassword.Text)
                         {
-                            services services = new services();
+                            services services = new services(kolom["user_id"].ToString());
                             services.Show();
                             this.Hide();
                         }

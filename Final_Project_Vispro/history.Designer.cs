@@ -36,6 +36,7 @@
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -46,6 +47,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Azure;
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.txtUsername2);
             this.panel1.Controls.Add(this.btnSearch2);
             this.panel1.Controls.Add(this.txtUsername1);
@@ -128,6 +130,16 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "SkyBlue Wash";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1239, 68);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(80, 40);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "akun";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Final_Project_Vispro.Properties.Resources.icons8_automatic_car_wash_100;
@@ -169,5 +181,6 @@
         private System.Windows.Forms.Button btnSearch2;
         private System.Windows.Forms.TextBox txtUsername1;
         private System.Windows.Forms.Button btnSearch1;
+        private System.Windows.Forms.Button button1;
     }
 }
