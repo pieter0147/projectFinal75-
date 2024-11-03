@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -55,6 +55,16 @@
             this.panel1.Size = new System.Drawing.Size(1760, 900);
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // button4
+            // 
+            this.button4.Image = global::Final_Project_Vispro.Properties.Resources.icons8_employee_100;
+            this.button4.Location = new System.Drawing.Point(1492, 49);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 65);
+            this.button4.TabIndex = 10;
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -92,7 +102,7 @@
             // 
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Image = global::Final_Project_Vispro.Properties.Resources.icons8_car_100;
-            this.button1.Location = new System.Drawing.Point(994, 247);
+            this.button1.Location = new System.Drawing.Point(767, 263);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(225, 205);
             this.button1.TabIndex = 6;
@@ -120,16 +130,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // button4
-            // 
-            this.button4.Image = global::Final_Project_Vispro.Properties.Resources.icons8_employee_100;
-            this.button4.Location = new System.Drawing.Point(1492, 49);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 65);
-            this.button4.TabIndex = 10;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // services
             // 
