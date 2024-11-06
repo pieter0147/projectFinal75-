@@ -10,7 +10,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data;
-using MySql.Data.MySqlClient;
 
 namespace Final_Project_Vispro
 {
@@ -57,7 +56,6 @@ namespace Final_Project_Vispro
                         txtPosisi.Text = kolom["posisi"].ToString();
                         txtUsername.Text = kolom["username"].ToString();
                         
-                    }
 
                 }
                 else
